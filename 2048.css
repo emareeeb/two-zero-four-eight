@@ -1,10 +1,20 @@
+html, body { 
+    margin: 20px; 
+    padding: 0; 
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background: linear-gradient(to bottom, #fdfcf9, #f3ede8);
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(to bottom, #fdfcf9, #f3ede8); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
 }
+
 
 hr {
     width: 60%;
